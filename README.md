@@ -48,8 +48,8 @@ The plugin then calculates which element within the parent is the tallest. It th
 
 ```javascript
 $(window).on("load", function() { // important to use window.load to ensure elements heights are set
-		$(".grid-row").matchHeight({
-			"child"	:	".grid-item",
-		});
+	$(".grid-row").matchHeight({
+		"child"	: ".grid-item",
+	});
 });
 ```
