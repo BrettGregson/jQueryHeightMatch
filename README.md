@@ -16,6 +16,11 @@ While an element that takes up 50% of the vertical height would be:
 
 The plugin then calculates which element within the parent is the tallest. It then sets each child element's height based on the is max height and the `data-size` property
 
+## Installation
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="matchHeight.js"></script>
+
+
 ## Example
 
 ```html
