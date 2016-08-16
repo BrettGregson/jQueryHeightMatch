@@ -6,7 +6,7 @@ jQuery library to match items height in a windows metro style. Works with bootst
 
 ## How it works
 
-The plugin is attached to the parent element (for bootstrap, this would be the `.row`). A child element is passed as an option. Each child element needs the HTML attrbiute `data-size="n"` which tells the plugin what percentage the element is of the total height (between 1 and 100). For example, an element that take the entire vertiacal space would be:
+The plugin is attached to the parent element (for bootstrap, this would be the `.row`). A child element is passed as an option. Each child element needs the HTML attrbiute `data-size="n"` which tells the plugin what percentage the element is of the total height (between 1 and 100). For example, an element that take the entire vertical space would be:
 
 `data-size="100"`
 
